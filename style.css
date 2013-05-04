@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Doppio+One);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+body{
+  background: #f3f3f3;
+}
+#header{
+	background: #6abcd0;
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	padding: 0.2% 0;
+}
+#principalleft{
+	width: 50%;
+	height: 800px;
+	background:#f3f3f3;
+	position:absolute;
+	left: 0;
+	top: 12.6%;
+}
+#header #logo img{
+	width: 180px;
+	height: 70px;
+}
+#redesocial{
+	text-align:center;
+	top: 2%;
+	left: 2%;
+	position: absolute;
+	border: 1px solid #E3E3E3;
+	width: 25%;
+	height: 100px;
+	background: #f9f9f9;
+	font-family: "Verdana";
+}
+#redesocial li{
+	float: left;
+	list-style:none;
+	width: 40px;
+	height: 40px;
+}
+#redesocial li#fb{
+	width: 60%;
+	margin-left: -0.5%;
+	height: 65px;
+	line-height: 65px;
+	background: #3b5998;
+	color: #fff;
+	font-size: 32px;
+	font-family: "Doppio One";
+}
+#redesocial li#tw{
+	line-height: 30px;
+	width: 41%;
+	margin-left: -0.5%;
+	height: 32.5px;
+	background: #00cffe;
+	color: #fff;
+	font-size: 32px;
+	font-family: "Doppio One";
+}
+#redesocial li#gm{
+	line-height: 30px;
+	width: 41%;
+	margin-left: -0.5%;
+	height: 32.5px;
+	background: #dc4c3a;
+	color: #fff;
+	font-size: 24px;
+	font-family: "Verdana";
+}
